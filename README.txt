@@ -1,5 +1,5 @@
-This is my personal website.
+Hello world. Welcome to my personal site.
 
-Written entirely in Bootstrap HTML / CSS / and JavaScript.
-Majority written from scratch apart for a few instances where credit has bene given in comments.
-Started on August 13th, 2017 at 9:59pm.
+It is entirely written in Bootstrap HTML, CSS, and JS.
+The majority of the code was written from scratch with a few borrowed items which have been given credit.
+Contact: alexjcyphus@gmail.com
