@@ -1,0 +1,139 @@
+/* generic classes */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  max-width: 100px;
+
+}
+
+.section-title {
+  font-size: 400%;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+
+/* title */
+
+.main-title-container {
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(-90deg, #8324ee -50%, #ef36ff 100%);
+}
+
+.main-title {
+  font-size: 600%;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.octicon  {
+  font-size: 100px;
+  color: black;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.title-icons {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 575px;
+  color: white;
+  margin: auto;
+}
+
+/*refactor this */
+
+.bounce:hover {
+  animation-name: bounce;
+  animation-duration: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.title-icon-name {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.vertical-title {
+  vertical-align: middle;
+}
+
+
+
+/* about me */
+
+.about-me-section {
+  background: #696969;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.picture-of-me {
+  border-radius: 25px;
+  height: 350px;
+  width: 350px;
+  background: url(/assets/img/picture-of-me.jpg) no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  color: white;
+  font-weight: bold;
+
+}
+
+/* skills */
+
+.skills-section {
+  height: 400px;
+}
+
+.skills-title {
+  color: black;
+}
+
+/* projects */
+
+.projects-section {
+  height: 600px;
+  background: url(/assets/img/giphy.gif) repeat;
+}
+
+.contact-section {
+  height: 300px;
+  background-color: black;
+  font-size: 10px;
+}
+
+/*
+VARIABLES IN CSS
+
+DECLARE:
+  - IN BODY TAG PUT "--VARIABLE: VALUE;"
+
+USE:
+  - IN ELEMENT PUT "var(--variable);"
+
+ */

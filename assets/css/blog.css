@@ -1,0 +1,14 @@
+.main-title-container {
+  height: 250px;
+  background: linear-gradient(-201deg, #7124ee 0%, #ff00cf 100%);
+}
+
+.vertical-title {
+  padding-top: calc((250px - 170px) / 2);
+}
+
+.main-title {
+  font-size: 600%;
+  color: white;
+  font-weight: 600;
+}
