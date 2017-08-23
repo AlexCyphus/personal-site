@@ -4,19 +4,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-a {
-  padding: 0;
-  border: 0;
-  margin: 0;
-  max-width: 100px;
-
-}
-
 .section-title {
   font-size: 400%;
   color: white;
   padding-top: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   font-weight: 600;
 }
 
@@ -36,7 +28,7 @@ a {
   margin-bottom: 20px;
 }
 
-.octicon  {
+.title-octicon  {
   font-size: 100px;
   color: black;
 }
@@ -81,6 +73,11 @@ a {
 
 /* about me */
 
+#about {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 .about-me-section {
   background: #696969;
   height: 100%;
@@ -95,7 +92,10 @@ a {
   background-size: contain;
   vertical-align: middle;
   position: relative;
-  margin-bottom: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  bottom: 15px;
+
 }
 
 .paragraph {
@@ -104,13 +104,44 @@ a {
 
 }
 
-/* skills */
-
-.skills-section {
-  height: 400px;
-}
+/* skills wow this really needs looking at*/
 
 .skills-title {
+  color: black;
+  -webkit-margin-after: 0px;
+}
+
+.bottom-skills-container {
+  margin-bottom: 60px;
+}
+
+ .vertical-item {
+   position: relative;
+   top:50%;
+   transform: translateY(-50%);
+}
+
+.skills-octicon {
+  color: black;
+  font-size: 75px;
+  border-top: 30px;
+  margin-bottom: 35px;
+  padding-bottom: -30px;
+}
+
+.padding-left-and-right {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.skills-octicon {
+margin-top: 10px;
+}
+
+.skills-subheading {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
   color: black;
 }
 
@@ -126,6 +157,7 @@ a {
   background-color: black;
   font-size: 10px;
 }
+
 
 /*
 VARIABLES IN CSS
