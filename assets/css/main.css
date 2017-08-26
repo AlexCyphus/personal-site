@@ -18,7 +18,8 @@ body {
   height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(-90deg, #8324ee -50%, #ef36ff 100%);
+  background-image: linear-gradient(-206deg, #835EFF 0%, #FF008D 100%);
+
 }
 
 .main-title {
@@ -69,8 +70,6 @@ body {
   vertical-align: middle;
 }
 
-
-
 /* about me */
 
 #about {
@@ -85,7 +84,6 @@ body {
 }
 
 .picture-of-me {
-  border-radius: 25px;
   height: 350px;
   width: 350px;
   background: url(/assets/img/picture-of-me.jpg) no-repeat center center;
@@ -95,7 +93,6 @@ body {
   margin-top: auto;
   margin-bottom: auto;
   bottom: 15px;
-
 }
 
 .paragraph {
@@ -152,12 +149,20 @@ margin-top: 10px;
   background: url(/assets/img/giphy.gif) repeat;
 }
 
+/* contact me */
+
 .contact-section {
   height: 300px;
   background-color: black;
   font-size: 10px;
 }
 
+.contact-icon {
+  font-size: 800%;
+  color: white;
+  vertical-align: middle;
+  padding-top: 20px;
+}
 
 /*
 VARIABLES IN CSS
@@ -169,3 +174,9 @@ USE:
   - IN ELEMENT PUT "var(--variable);"
 
  */
+
+h2 {
+  font-size: 150px;
+  color: yellow;
+  font-weight: bold;
+padding-top: 90px;}
